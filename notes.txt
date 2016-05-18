@@ -1,0 +1,31 @@
+rendering/scene in THREE.js
+---
+threejs.org
+
+create custom extrusion and revolution
+
+CSG with CSG.js
+---
+https://github.com/evanw/csg.js/
+https://evanw.github.io/csg.js/docs/
+
+convex triangularization
+---
+http://www.geometrictools.com/Documentation/TriangulationByEarClipping.pdf
+
+simple game built in THREE.js
+---
+http://www.isaacsukin.com/news/2012/06/how-build-first-person-shooter-browser-threejs-and-webglhtml5-canvas
+
+THREE.js controls
+---
+https://github.com/mrdoob/three.js/tree/master/examples/js/controls
+http://threejs.org/examples/#misc_controls_pointerlock
+https://github.com/mrdoob/three.js/blob/master/examples/misc_controls_pointerlock.html
+
+extras
+---
+lightgl: https://github.com/evanw/lightgl.js/
+OpenCSG: http://www.opencsg.org/
+CGAL: http://www.cgal.org/
+OpenSCAD: https://github.com/openscad/openscad/tree/master/src

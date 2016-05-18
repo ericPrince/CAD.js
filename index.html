@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>three.js webgl - trackball controls</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			body {
+				color: #000;
+				font-family:Monospace;
+				font-size:13px;
+				text-align:center;
+				font-weight: bold;
+				background-color: #fff;
+				margin: 0px;
+				overflow: hidden;
+			}
+			#info {
+				color:#fff;
+				position: absolute;
+				top: 0px; width: 100%;
+				padding: 5px;
+			}
+			a {
+				color: red;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="container"></div>
+		<!--<div id="canvas"></div>-->
+		<div id="info">
+			<a>CAD.js</a> - extrude and revolve</br>
+			MOVE mouse &amp; press LEFT/A: rotate, MIDDLE/S: zoom, RIGHT/D: pan
+			</br>
+			1 - view all geometry |
+			2 - remove lines |
+			3 - create polygon on face |
+			4 - extrude |
+			5 - revolve |
+		</div>
+
+		<script src="libjs/three.js"></script>
+
+		<script src="libjs/TrackballControls.js"></script>
+
+		<!--<script src="js/Detector.js"></script>
+		<script src="js/libs/stats.min.js"></script>-->
+
+		<script src="libjs/stats.min.js"></script>
+
+		<script src="js/lightgl.js"></script>
+		<script src="js/csg.js"></script>
+		<script src="js/csgOps.js"></script>
+
+		<script src="cad.js"></script>
+
+	</body>
+</html>
+
+    Status API Training Shop Blog About 
+
+    © 2016 GitHub, Inc. Terms Privacy Security Contact Help 
+
